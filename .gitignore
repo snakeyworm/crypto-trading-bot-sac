@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Data files
+*.csv
+*.json
+*.db
+
+# Model files
+*.pkl
+*.h5
+*.pt
+*.pth
+portfolio_sac_model_*
+*.zip
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+temp/
+portfolio_env_temp.py
+
+# API keys
+.env
+config.json
+credentials.json
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
